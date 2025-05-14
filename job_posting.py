@@ -1,7 +1,5 @@
 import pandas as pd
 
-import pandas as pd
-
 def search_job_postings_by_category(search_term: str) -> pd.DataFrame:
     try:
         # 엑셀 파일을 함수 내부에서 불러오기

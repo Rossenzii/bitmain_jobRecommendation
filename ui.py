@@ -12,7 +12,10 @@ from survey_questions import questions
 #     answers.append(response)
 
 # test용
-def get_user_answers():
+def get_user_answers(user_mbti):
+
+    st.markdown(f"### 👉 당신의 MBTI는 **{user_mbti}** 입니다.")
+
     if "preset" not in st.session_state:
         st.session_state.preset = None
 
