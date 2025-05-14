@@ -22,12 +22,12 @@ def get_user_answers(user_mbti):
     st.write("각 질문에 대해 본인의 성향에 가까운 답변을 선택하세요.")
     
     col1, col2 = st.columns(2)
-    with col1:
-        if st.button("✅ 모두 A로 설정"):
-            st.session_state.preset = "A"
-    with col2:
-        if st.button("❌ 모두 B로 설정"):
-            st.session_state.preset = "B"
+    # with col1:
+    #     if st.button("✅ 모두 A로 설정"):
+    #         st.session_state.preset = "A"
+    # with col2:
+    #     if st.button("❌ 모두 B로 설정"):
+    #         st.session_state.preset = "B"
 
     answers = []
     for idx, (q, a1, a2) in enumerate(questions):
