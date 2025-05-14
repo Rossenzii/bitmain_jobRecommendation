@@ -19,7 +19,7 @@ except Exception as e:
     st.stop()
 
 # 1. ui 환경
-st.title("[직무 성향 설문지]")
+st.title("[MBTI및 직무 성향을 고려한 커리어 제안]")
 answers = []
 
 user_mbti=get_user_mbti()
